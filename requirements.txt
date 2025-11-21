@@ -1,0 +1,8 @@
+# Hugging Face Transformers library
+transformers>=4.30.0
+
+# PyTorch (required for running models)
+torch>=2.0.0
+
+# Additional useful libraries
+numpy>=1.24.0
