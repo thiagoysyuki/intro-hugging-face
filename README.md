@@ -26,6 +26,8 @@ To run the examples in this repository, you'll need Python 3.7 or higher. Instal
 pip install -r requirements.txt
 ```
 
+For detailed setup instructions, see the [Getting Started Guide](GETTING_STARTED.md).
+
 ## Getting Started
 
 The `transformers` library by Hugging Face is the main tool we'll use. It provides thousands of pre-trained models for various tasks.
