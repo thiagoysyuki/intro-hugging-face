@@ -11,8 +11,16 @@ This guide will help you set up and run the Hugging Face examples in this reposi
 
 ### 1. Clone the Repository
 
+If you haven't already cloned this repository:
+
 ```bash
 git clone https://github.com/thiagoysyuki/intro-hugging-face.git
+cd intro-hugging-face
+```
+
+If you've already cloned it, just navigate to the directory:
+
+```bash
 cd intro-hugging-face
 ```
 

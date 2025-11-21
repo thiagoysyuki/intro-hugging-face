@@ -33,7 +33,15 @@ def main():
     
     for text in texts:
         # Perform sentiment analysis
-        result = sentiment_analyzer(text)[0]
+        results = sentiment_analyzer(text)
+        
+        if not results:
+            print(f"\nText: '{text}'")
+            print("Error: No results returned")
+            print("-" * 60)
+            continue
+        
+        result = results[0]
         
         # Display results
         label = result['label']
